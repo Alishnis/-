@@ -15,3 +15,5 @@ def submit_view(request):
     else:
         form = UserSubmissionForm()
     return render(request, 'submit_form.html', {'form': form})
+def main_sec(request):
+    return render(request,'2main.html')
